@@ -5,7 +5,7 @@
         <div class="footer-title">
             <a href="#header" class="logo nav-link">JACOBO COMMERCE</a>
             <p class="footer-text">
-                Compra hoy y recibí mañana.
+                Compra hoy y recibe mañana.
             </p>
         </div>
         <div >
