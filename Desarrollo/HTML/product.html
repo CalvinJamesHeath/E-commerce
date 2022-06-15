@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>E-Commerce Jabobo</title>
+		<!-- favicon -->
+		<link rel="icon" type="image/x-icon" href="./imagenes/favicon.png" />
+		<!-- íconos -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Rye&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- css -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header id="header">
+			<!-- header top -->
+			<div class="header-div">
+				<p>Jacobo 430-895 Europa</p>
+				<div>
+					<a href="product.html" class="header-links">Login</a>
+					<a href="product.html" class="header-links">Deseados (0)</a>
+				</div>
+			</div>
+			<!-- nav -->
+			<nav class="nav" id="commerce">
+				<a href="index.html" class="logo nav-link">JACOBO COMMERCE</a>
+				<button class="nav-toggle" id="nav-toggle-btn" aria-label="Abrir menú">
+					<i class="fas fa-bars"></i>
+				</button>
+				<ul class="nav-menu">
+					<li class="nav-menu-item">
+						<a href="#en-oferta" class="nav-menu-link nav-link nav-toggle"
+							>Categorías</a
+						>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#blogs" class="nav-menu-link nav-link nav-toggle">Blog</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#en-oferta" class="nav-menu-link nav-link nav-toggle"
+							>Productos</a
+						>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#banner2" class="nav-menu-link nav-link nav-toggle"
+							>Moda</a
+						>
+					</li>
+					<li class="nav-menu-item">
+						<a
+							href="#en-oferta"
+							class="nav-menu-link nav-link nav-menu-link_active nav-toggle"
+							>Ofertas</a
+						>
+					</li>
+					<li class="nav-menu-item">
+						<form action="#">
+							<a href="cart.html" class="carrito-btn nav-toggle">
+								<span class="carrito">
+									<i class="fas fa-shopping-cart"></i>
+								</span>
+								<span class="carrito-nm">2</span>
+							</a>
+						</form>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+			<!--   product  -->
+			<section id="productos">
+				<div class="container">
+					<div class="grid-product">
+						<div class="product-img-container">
+							<img
+								src="imagenes/products/1.png"
+								alt="product"
+								class="product-img"
+							/>
+							<div class="buy-btns">
+								<a href="cart.html" class="comprar-btn"> Comprar </a>
+								<a href="cart.html" class="cart-btn"> Carrito </a>
+							</div>
+						</div>
+						<div>
+							<h5 class="product-name">Iphone 13 Pro Max</h5>
+							<small>fabricado por Apple</small>
+							<div class="info-rating">
+								<div class="rating">
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+								</div>
+								<a href="product.html" class="leer-mas"
+									>20,534 ratings | 1000+ preguntas respondidas</a
+								>
+							</div>
+							<hr />
+
+							<!---    product precio       -->
+							<table class="table">
+								<tr>
+									<td>M.R.P:</td>
+									<td><strike>$1162.00</strike></td>
+								</tr>
+								<tr>
+									<td>Oferta:</td>
+									<td class="td">
+										$<span>1002.00</span
+										><small>&nbsp;&nbsp;Incluyendo todos los impuestos</small>
+									</td>
+								</tr>
+								<tr>
+									<td>Ahorra:</td>
+									<td><span class="ahorras">$160.00</span></td>
+								</tr>
+							</table>
+							<!---    ! product precio       -->
+
+							<!--    #policy -->
+							<div id="policy">
+								<div class="info-p">
+									<div class="return">
+										<div>
+											<span class="fas fa-retweet icon"></span>
+										</div>
+										<a href="#" class="leer-mas"
+											>10 Días de<br />
+											Reemplazo</a
+										>
+									</div>
+									<div class="return">
+										<div>
+											<span class="fas fa-truck icon"></span>
+										</div>
+										<a href="#" class="leer-mas"
+											>Matrícula diaria <br />Entregada</a
+										>
+									</div>
+									<div class="return">
+										<div>
+											<span class="fas fa-check-double icon"></span>
+										</div>
+										<a href="#" class="leer-mas">1 año de <br />Garantía</a>
+									</div>
+								</div>
+							</div>
+							<!--    !policy -->
+							<hr />
+
+							<!-- order-details -->
+							<div id="order-details">
+								<small>Delivery: Mar 29 - Apr 1</small>
+								<small
+									>Vendido por <a href="#">Daily Electronics </a>(4.5 de 5
+									estrellas | 18,198 ratings)</small
+								>
+								<small
+									><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp; Barcelona -
+									424201</small
+								>
+							</div>
+							<!-- !order-details -->
+
+							<div class="color">
+								<!-- color -->
+								<div class="colors">
+									<h6 class="titles-p">Color:</h6>
+									<div class="color-around">
+										<button class="rounded-circle-1"></button>
+										<button class="rounded-circle-2"></button>
+										<button class="rounded-circle-3"></button>
+									</div>
+								</div>
+								<!-- !color -->
+								<div>
+									<!-- product qty section -->
+									<div>
+										<h6 class="titles-p">Cantidad</h6>
+										<div>
+											<button data-id="pro1">
+												<i class="fas fa-angle-up"></i>
+											</button>
+											<input
+												type="text"
+												data-id="pro1"
+												disabled
+												value="1"
+												placeholder="1"
+											/>
+											<button data-id="pro1">
+												<i class="fas fa-angle-down"></i>
+											</button>
+										</div>
+									</div>
+									<!-- !product qty section -->
+								</div>
+							</div>
+
+							<!-- size -->
+							<h6 class="titles-p">Almacenamiento:</h6>
+							<div class="size">
+								<div class="color">
+									<div>
+										<button class="btn-storage">128 GB</button>
+									</div>
+									<div>
+										<button class="btn-storage">512 GB</button>
+									</div>
+									<div>
+										<button class="btn-storage">1 TB</button>
+									</div>
+								</div>
+							</div>
+							<!-- !size -->
+						</div>
+					</div>
+					<div>
+						<h6 id="titulo">Descripción del Producto</h6>
+						<hr />
+						<p class="card-text">
+							El teléfono es un dispositivo de telecomunicación creado para
+							transmitir señales acústicas a distancia por medio de señales
+							eléctricas. Sapiente optio sunt provident, accusantium eligendi
+							eius reiciendis animi? Laboriosam, optio qui? Numquam, quo fuga.
+							Maiores minus, accusantium velit numquam a aliquam vitae vel?
+						</p>
+						<p class="card-text">
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+							inventore vero numquam error est ipsa, consequuntur temporibus
+							debitis nobis sit, delectus officia ducimus dolorum sed corrupti.
+							Sapiente optio sunt provident, accusantium eligendi eius
+							reiciendis animi? Laboriosam, optio qui? Numquam, quo fuga.
+							Maiores minus, accusantium velit numquam a aliquam vitae vel?
+						</p>
+					</div>
+				</div>
+			</section>
+			<!--   !product  -->
+
+			<!-- Top Sale -->
+			<section id="en-oferta">
+				<h4 id="titulo">Más Productos</h4>
+				<hr />
+				<!-- grid -->
+				<div class="grid">
+					<div class="product">
+						<a href="#"
+							><img
+								src="imagenes/products/1.png"
+								alt="product1"
+								class="img-fluid"
+						/></a>
+						<div>
+							<h6>Iphone 13</h6>
+							<div class="rating">
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span>$1252</span>
+							</div>
+							<div class="buttons">
+								<button class="cart-button">
+									<span class="add-to-cart">Add to cart</span>
+									<span class="added">Agregado!</span>
+									<i class="fa fa-shopping-cart"></i>
+									<i class="fa fa-square"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="product">
+							<a href="#"
+								><img
+									src="imagenes/products/2.png"
+									alt="product1"
+									class="img-fluid"
+							/></a>
+							<div>
+								<h6>Readme Note 7</h6>
+								<div class="rating">
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="far fa-star"></i></span>
+									<span><i class="far fa-star"></i></span>
+								</div>
+								<div class="price">
+									<span>$852</span>
+								</div>
+								<div class="buttons">
+									<button class="cart-button">
+										<span class="add-to-cart">Add to cart</span>
+										<span class="added">Agregado!</span>
+										<i class="fa fa-shopping-cart"></i>
+										<i class="fa fa-square"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="product">
+							<a href="#"
+								><img
+									src="imagenes/products/3.png"
+									alt="product1"
+									class="img-fluid"
+							/></a>
+							<div>
+								<h6>Xiomi Mi</h6>
+								<div class="rating">
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="far fa-star"></i></span>
+									<span><i class="far fa-star"></i></span>
+								</div>
+								<div class="price">
+									<span>$682</span>
+								</div>
+								<div class="buttons">
+									<button class="cart-button">
+										<span class="add-to-cart">Add to cart</span>
+										<span class="added">Agregado!</span>
+										<i class="fa fa-shopping-cart"></i>
+										<i class="fa fa-square"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- !grid -->
+			</section>
+		</main>
+		<br />
+		<!-- start #footer -->
+		<footer id="footer">
+			<div class="grid footer-container">
+				<div class="footer-title">
+					<a href="#header" class="logo nav-link">JACOBO COMMERCE</a>
+					<p class="footer-text">Compra hoy y recibí mañana.</p>
+				</div>
+				<div>
+					<h4 class="footer-title">Newslatter</h4>
+					<form>
+						<div>
+							<input type="text" class="form-control" placeholder="Email *" />
+						</div>
+						<div>
+							<button type="submit" class="btn-footer">Subscribete</button>
+						</div>
+					</form>
+				</div>
+				<div>
+					<h4 class="footer-title">Information</h4>
+					<div class="flex-footer">
+						<a href="#" class="links-footer">Sobre nosotros</a>
+						<a href="#" class="links-footer">Delivery </a>
+						<a href="#" class="links-footer">Privacidad</a>
+						<a href="#" class="links-footer">Términos y Condiciones</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="copyright">
+			<p>
+				Copyrights &copy; 2022 - Diseñado por
+				<a href="#commerce" class="leer-mas">JACOBO</a>
+			</p>
+		</div>
+		<!-- !start #footer -->
+		<script defer src="js/index.js"></script>
+		<script
+			src="https://kit.fontawesome.com/7e5b2d153f.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

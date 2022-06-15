@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>E-Commerce Jabobo</title>
+		<!-- favicon -->
+		<link rel="icon" type="image/x-icon" href="./imagenes/favicon.png" />
+		<!-- íconos -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Rye&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- css -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header id="header">
+			<!-- header top -->
+			<div class="header-div">
+				<p>Jacobo 430-895 Europa</p>
+				<div>
+					<a href="product.html" class="header-links">Login</a>
+					<a href="product.html" class="header-links">Deseados (0)</a>
+				</div>
+			</div>
+			<!-- nav -->
+			<nav class="nav" id="commerce">
+				<a href="index.html" class="logo nav-link">JACOBO COMMERCE</a>
+				<button class="nav-toggle" id="nav-toggle-btn" aria-label="Abrir menú">
+					<i class="fas fa-bars"></i>
+				</button>
+				<ul class="nav-menu">
+					<li class="nav-menu-item">
+						<a href="#en-oferta" class="nav-menu-link nav-link nav-toggle"
+							>Categorías</a
+						>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#blogs" class="nav-menu-link nav-link nav-toggle">Blog</a>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#en-oferta" class="nav-menu-link nav-link nav-toggle"
+							>Productos</a
+						>
+					</li>
+					<li class="nav-menu-item">
+						<a href="#banner2" class="nav-menu-link nav-link nav-toggle"
+							>Moda</a
+						>
+					</li>
+					<li class="nav-menu-item">
+						<a
+							href="#en-oferta"
+							class="nav-menu-link nav-link nav-menu-link_active nav-toggle"
+							>Ofertas</a
+						>
+					</li>
+					<li class="nav-menu-item">
+						<form action="#">
+							<a href="cart.html" class="carrito-btn nav-toggle">
+								<span class="carrito">
+									<i class="fas fa-shopping-cart"></i>
+								</span>
+								<span class="carrito-nm">2</span>
+							</a>
+						</form>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+			<!-- Shopping cart section  -->
+			<section id="cart">
+				<div id="en-oferta">
+					<h4 id="titulo">Carrito</h4>
+					<hr />
+
+					<!--  shopping cart items   -->
+					<div class="grid-cart">
+						<div>
+							<!-- cart item -->
+							<div class="cart-product">
+								<div>
+									<a href="product.html">
+										<img
+											src="imagenes/products/1.png"
+											alt="cart1"
+											class="img-cart"
+										/>
+									</a>
+								</div>
+								<div>
+									<h5>Iphone 13 Pro Max</h5>
+									<small>fabricado por Apple</small>
+									<!-- product rating -->
+									<div>
+										<div class="rating">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+										</div>
+										<a href="#" class="leer-mas">20,534 ratings</a>
+									</div>
+									<!--  !product rating-->
+
+									<!-- product qty -->
+									<div>
+										<div class="cantidad">
+											<button type="submit">Eliminar</button>
+											<button type="submit">Guardar para después</button>
+										</div>
+									</div>
+									<!-- !product qty -->
+								</div>
+
+								<div class="col-sm-2 text-right">
+									<div class="font-size-20 text-danger font-baloo">
+										$<span class="product_price">1002</span>
+									</div>
+								</div>
+							</div>
+							<!-- !cart item -->
+							<!-- cart item -->
+							<div class="cart-product">
+								<div>
+									<a href="product.html">
+										<img
+											src="imagenes/products/1.png"
+											alt="cart1"
+											class="img-cart"
+										/>
+									</a>
+								</div>
+								<div>
+									<h5>Iphone 13 Pro Max</h5>
+									<small>fabricado por Apple</small>
+									<!-- product rating -->
+									<div>
+										<div class="rating">
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+											<span><i class="fas fa-star"></i></span>
+										</div>
+										<a href="#" class="leer-mas">20,534 ratings</a>
+									</div>
+									<!--  !product rating-->
+
+									<!-- product qty -->
+									<div>
+										<div class="cantidad">
+											<button type="submit">Eliminar</button>
+											<button type="submit">Guardar para después</button>
+										</div>
+									</div>
+									<!-- !product qty -->
+								</div>
+
+								<div class="col-sm-2 text-right">
+									<div class="font-size-20 text-danger font-baloo">
+										$<span class="product_price">1002</span>
+									</div>
+								</div>
+							</div>
+							<!-- !cart item -->
+						</div>
+						<!-- subtotal section-->
+						<div>
+							<div class="orden">
+								<h6 class="free">
+									<i class="fas fa-check"></i> Su pedido es elegible para
+									entrega GRATIS!
+								</h6>
+								<hr />
+								<div>
+									<h5>
+										Subtotal (2 item):&nbsp;
+										<span class="text-danger"
+											>$<span class="text-danger" id="deal-price">2004.00</span>
+										</span>
+									</h5>
+									<button type="submit" class="comprar-btn-carrito">
+										Comprar
+									</button>
+								</div>
+							</div>
+						</div>
+						<!-- !subtotal section-->
+					</div>
+					<!--  !shopping cart items   -->
+				</div>
+			</section>
+			<!-- !Shopping cart section  -->
+			<!-- Publicidad  -->
+			<section>
+				<div class="ads">
+					<img
+						src="imagenes/banner1-cr-500x150.jpg"
+						alt="banner1"
+						class="img-ads"
+					/>
+					<img
+						src="imagenes/banner2-cr-500x150.jpg"
+						alt="banner1"
+						class="img-ads"
+					/>
+				</div>
+			</section>
+			<!-- !Publicidad  -->
+			<!-- Top Sale -->
+			<section id="en-oferta">
+				<h4 id="titulo">Más Productos</h4>
+				<hr />
+				<!-- grid -->
+				<div class="grid">
+					<div class="product">
+						<a href="product.html"
+							><img
+								src="imagenes/products/1.png"
+								alt="product1"
+								class="img-fluid"
+						/></a>
+						<div>
+							<h6>Iphone 13</h6>
+							<div class="rating">
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+								<span><i class="fas fa-star"></i></span>
+							</div>
+							<div class="price">
+								<span>$1252</span>
+							</div>
+							<div class="buttons">
+								<button class="cart-button">
+									<span class="add-to-cart">Add to cart</span>
+									<span class="added">Agregado!</span>
+									<i class="fa fa-shopping-cart"></i>
+									<i class="fa fa-square"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="product">
+							<a href="product.html"
+								><img
+									src="imagenes/products/2.png"
+									alt="product1"
+									class="img-fluid"
+							/></a>
+							<div>
+								<h6>Readme Note 7</h6>
+								<div class="rating">
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="far fa-star"></i></span>
+									<span><i class="far fa-star"></i></span>
+								</div>
+								<div class="price">
+									<span>$852</span>
+								</div>
+								<div class="buttons">
+									<button class="cart-button">
+										<span class="add-to-cart">Add to cart</span>
+										<span class="added">Agregado!</span>
+										<i class="fa fa-shopping-cart"></i>
+										<i class="fa fa-square"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="product">
+							<a href="product.html"
+								><img
+									src="imagenes/products/3.png"
+									alt="product1"
+									class="img-fluid"
+							/></a>
+							<div>
+								<h6>Xiomi Mi</h6>
+								<div class="rating">
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="fas fa-star"></i></span>
+									<span><i class="far fa-star"></i></span>
+									<span><i class="far fa-star"></i></span>
+								</div>
+								<div class="price">
+									<span>$682</span>
+								</div>
+								<div class="buttons">
+									<button class="cart-button">
+										<span class="add-to-cart">Add to cart</span>
+										<span class="added">Agregado!</span>
+										<i class="fa fa-shopping-cart"></i>
+										<i class="fa fa-square"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- !grid -->
+			</section>
+		</main>
+		<br />
+		<!-- start #footer -->
+		<footer id="footer">
+			<div class="grid footer-container">
+				<div class="footer-title">
+					<a href="#header" class="logo nav-link">JACOBO COMMERCE</a>
+					<p class="footer-text">Compra hoy y recibí mañana.</p>
+				</div>
+				<div>
+					<h4 class="footer-title">Newslatter</h4>
+					<form>
+						<div>
+							<input type="text" class="form-control" placeholder="Email *" />
+						</div>
+						<div>
+							<button type="submit" class="btn-footer">Subscribete</button>
+						</div>
+					</form>
+				</div>
+				<div>
+					<h4 class="footer-title">Information</h4>
+					<div class="flex-footer">
+						<a href="#" class="links-footer">Sobre nosotros</a>
+						<a href="#" class="links-footer">Delivery </a>
+						<a href="#" class="links-footer">Privacidad</a>
+						<a href="#" class="links-footer">Términos y Condiciones</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="copyright">
+			<p>
+				Copyrights &copy; 2022 - Diseñado por
+				<a href="#commerce" class="leer-mas">JACOBO</a>
+			</p>
+		</div>
+		<!-- !start #footer -->
+		<script defer src="js/index.js"></script>
+		<script
+			src="https://kit.fontawesome.com/7e5b2d153f.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
